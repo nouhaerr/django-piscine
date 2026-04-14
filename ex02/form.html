@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="../d00/ex02/popup.js"></script>
+    <title>Contact Form</title>
+</head>
+<body>
+    <h1>Contact Form</h1>
+    <form action="">
+        <label for="firstname">Firstname :</label>
+        <input type="text" name="firstname" id="firstname">
+        <br>
+        <label for="name">Name :</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="age">Age :</label>
+        <input type="number" name="age" id="age">
+        <br>
+        <label for="phone">Phone :</label>
+        <input type="tel" name="phone" id="phone">
+        <br>
+        <label for="">Email :</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="">Student at 42 ?</label>
+        <input type="checkbox" name="student" id="student">
+        <br>
+        <label>Gender :</label><br>
+        <label for="gender_male">Male</label>
+        <input type="radio" name="gender" id="gender_male" value="male">
+
+        <label for="gender_female">Female</label>
+        <input type="radio" name="gender" id="gender_female" value="female">
+
+        <label for="gender_other">Other</label>
+        <input type="radio" name="gender" id="gender_other" value="other">
+        <br>
+        <button type="button" onclick="displayFormContents();">Run that Js</button>
+    </form>
+</body>
+</html>
